@@ -2,7 +2,7 @@ export Lemma
 
 const SPACE = ' '
 
-immutable Lemma
+struct Lemma
     word::AbstractString
     pos::Char
     tagsense_count::Int
