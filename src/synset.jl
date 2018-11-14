@@ -1,6 +1,6 @@
 export Synset, word_count, words
 
-immutable Synset
+struct Synset
     offset::Int
     lex_filenum::Int
     word_counts::Dict{AbstractString, Int}
